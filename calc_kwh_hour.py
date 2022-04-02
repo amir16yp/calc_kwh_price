@@ -11,4 +11,4 @@ watt_hour = 4.0
 price = ((kwh_price / 1000) * watt_hour) * uptime 
 print("uptime: " + str(uptime) + " hours")
 print("kwh price: " + str(kwh_price))
-print("price (including VAT): " + str(price))
+print("price: " + str(price))
